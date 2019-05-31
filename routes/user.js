@@ -18,7 +18,7 @@ router.get('/', (req, res) => {
     .then(users => res.json(users))
     .catch(err => res.status(404).json({noUsersFound: 'no users found'}));
 })
-
+ 
 //@route    POST api/users/register
 //@desc     Register user
 //@body     name, email, password

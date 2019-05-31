@@ -26,6 +26,9 @@ const CourseSchema = new Schema({
     section:{
         type: Number,
         required: false
+    },
+    instructor:{
+        type: String
     }
 
 });
